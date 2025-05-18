@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.search-icon{
+  position:absolute ;
+  top: 20%;
+  left: 40%;
+ 
+}
+.input-container:focus {
+  border-color:#FA4A0C;
+  box-shadow: 0 4px 20px rgba(250, 75, 12, 0.509) ; 
+
+}
+input:placeholder-shown{
+  padding-left: 1em;
+}
+
+
+:root {
+    --swiper-theme-color: none;
+}

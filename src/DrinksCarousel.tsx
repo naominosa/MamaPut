@@ -1,0 +1,38 @@
+import CustomCarousel from './CustomCarousel';
+// import FoodArray from './FoodArray';
+import NigerianDrinksArray from './Drinks';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
+import 'swiper/css';
+function DrinksCarousel() {
+  return (
+    <div>
+      <Swiper
+        // modules={[Navigation]}
+        // navigation={true}
+         modules={[Autoplay]}
+  autoplay={{ delay: 3000, disableOnInteraction: false }}
+        spaceBetween={50}
+        slidesPerView={1}
+        onSlideChange={() => console.log('slide change')}
+        onSwiper={(swiper) => console.log(swiper)}
+      >
+        <div className='contain'>
+ {NigerianDrinksArray.map((food) => (
+          <SwiperSlide key={food.id}>
+            <CustomCarousel
+              src={food.image}
+              NameOfFood={food.name}
+              Price={food.price}
+              
+            />
+          </SwiperSlide>
+        ))}
+        </div>
+       
+      </Swiper>
+    </div>
+  )
+}
+
+export default DrinksCarousel

@@ -1,0 +1,78 @@
+@media (max-width: 1024px) {
+.first-screen{
+    width: 100%;
+  background-color:#FF4B3A;
+  height: 100vh;
+  text-align: center;
+  margin: auto 0;
+  overflow: hidden;
+  position: fixed;
+  
+}
+.logo-screen{
+     display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2em;
+
+}
+.chefs-hat{
+    width:18%;
+    height: 8vh;
+    background: #ffffff ;
+    border-radius: 90px;
+    background-position: center;
+
+}
+.chefs-Hat-Img{
+    width: 3em;
+}
+.chefs-text  h1{
+    font-size: 3.5em;
+      font-family: "M PLUS Rounded 1c", sans-serif;
+        font-weight:900;
+        line-height: 0.9em;
+        padding-top: 0.2em;
+        color: #ffffff;
+}
+.image-toy {
+  background: url('./assets/womansFace.png') no-repeat, 
+              url('./assets/manFace.png') no-repeat; 
+  height: 25em;
+  background-size: 38em, 13em, cover;
+  background-position: -11.5em top, right;
+}
+
+.img-button {
+  height: 60vh;
+  width: 100%;
+  /* margin-bottom: 8em; */
+}
+.bg-overlay{
+    background: url('./assets/bgTwo.png') no-repeat,
+    url('./assets/bgOne.png') no-repeat;
+    background-size: 50em;
+    width: 100%;
+    height: 20em;
+    position:fixed;
+    top:60%;
+  mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0));
+    overflow: hidden;
+}
+.btn{
+    background-color: #ffffff;
+    border: none;
+    padding: 1em;
+    width: 13em;
+    color: #FF460A;
+    border-radius: 2em;
+      font-family: "M PLUS Rounded 1c", sans-serif;
+        font-weight:900;
+    font-size: 1em;
+    position:absolute;
+    bottom:12%;
+    left: 25%;
+}
+  }
+
+

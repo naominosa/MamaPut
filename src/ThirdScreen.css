@@ -1,0 +1,61 @@
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.third-screen{
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 90vh;
+     font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.icon-images{
+    width: 3.5em;
+}
+.food-text h3{
+    font-size: 2.5em;
+}
+.third-screen-input{
+    width: 16em;
+    padding: 1em;
+    background-color: #EFEEEE;
+    border: none;
+    border-radius: 2em;
+}
+input::placeholder {
+  color: black;
+  font-size: 1.2em;
+  font-weight:400;
+}
+ul li{
+    list-style: none;
+}
+.listed {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
+}
+.link{ 
+  text-decoration: none;
+  color: #252525;
+}
+
+ li.active {
+  color: #fa4a0c;
+  border-bottom: 2px solid #fa4a0c;
+  width: 3.5em;
+  text-align: center;
+}
+
+.navigate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.caro{
+    height: 12em;
+}
