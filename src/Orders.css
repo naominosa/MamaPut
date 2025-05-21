@@ -1,0 +1,55 @@
+.text-icon{
+    display: flex;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+        font-weight:600;  
+        font-size: 1em;
+    padding-top: 1em;
+
+}
+.text-icon img{
+    height: 2em;
+    padding-right: 7.5em;
+    padding-left: 1em;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 72vh;
+}
+.contents img{
+    height: 10em;
+}
+.contents h2{
+   font-family: "M PLUS Rounded 1c", sans-serif;
+        font-weight:600;  
+}
+.contents p{
+     font-family: "M PLUS Rounded 1c", sans-serif;
+        font-weight:400;
+        width: 15em;
+}
+.Centralized{
+    display: flex;
+flex-direction: column;
+    min-height: 80vh;
+    color: #000000;
+    
+}
+.btns{
+    background-color: #FA4A0C;
+    border: none;
+    padding: 1em;
+    width: 13em;
+    color: #F6F6F9;
+    border-radius: 2em;
+      font-family: "M PLUS Rounded 1c", sans-serif;
+        font-weight:900;
+    font-size: 1em;
+}
+.Bottom{
+    display: flex;
+    justify-content: center;
+}

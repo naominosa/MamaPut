@@ -1,0 +1,19 @@
+.top-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.over{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.add-text{
+    padding: 1em;
+    width: 22em;
+}
+.add-text h4{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+     font-weight: 600;
+     color: #252525;
+}

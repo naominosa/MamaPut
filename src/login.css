@@ -1,0 +1,87 @@
+.Login-page{
+    background-color: #F2F2F2;
+    height: 100%;
+}
+.chefs{
+    margin-top: 120px;
+    margin-bottom: 55px;
+}
+.Links{    
+    display: flex;
+    flex-direction: row;
+    gap: 125px;
+    justify-content: center;    
+}
+.login-Link{
+    text-decoration: none;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    border-bottom: 3px solid #FA4A0C;
+}
+
+/* .login-Link:hover {
+    border-bottom: 3px solid #FA4A0C;
+} */
+
+.sign-Link{
+    text-decoration: none;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.sign-Link:hover {
+    border-bottom: 3px solid #FA4A0C;
+}
+
+.login-img{
+    display: flex;
+    justify-content: center;
+}
+.top-side{
+    width: 100%;
+    border-radius: 30px;
+    background-color: #fff; 
+    height: 382px;
+}
+.down-section{
+    height: 529px;
+    width: 100%;
+}
+.email-field{
+    margin-top: 65px;
+    margin-bottom: 40px;
+}
+.password-field{
+    margin-bottom: 34px;
+}
+
+.email-field > div,
+.password-field > div{
+    display: flex;
+    flex-direction: column;
+}
+.email-field label,
+.password-field label{
+    margin-bottom: 5px;
+    display: block;
+}
+.email-field input,
+.password-field input{
+    padding: 10px;
+    border: none;
+    background-color: #f2f2f2;
+    border-radius: 0%;
+    border-bottom: 1px solid #000000;
+}
+    
+.forgot{
+    text-decoration: none;
+    color: #FA4A0C;
+}
+.fields{
+    padding: 50px;
+}

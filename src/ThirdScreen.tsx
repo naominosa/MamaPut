@@ -3,11 +3,8 @@ import cart from './assets/grocery-cart.png';
 import './ThirdScreen.css';
 import Input from './GeneralSearch';
 import Carousel from './carousel';
-import home from './assets/heroicons-solid_home.png'
-import love from './assets/heart.png'
-import user from './assets/user.png'
-import history from './assets/Vector.png'
 import { Link, useLocation } from 'react-router-dom';
+import Footer from './Footer';
 
 function ThirdScreen() {
   const location = useLocation();
@@ -21,7 +18,7 @@ function ThirdScreen() {
   const active = getActiveTab();
 
   return (
-    <div className='third-screen'>
+ <div className='third-screen'>
       <div className="icons">
         <img className='icon-images' src={menu} alt="" />
         <img className='icon-images' src={cart} alt="" />
@@ -66,17 +63,17 @@ function ThirdScreen() {
       <div className='caro'>
         <Carousel />
       </div>
-      <div className='icons-navigation' >
-        <ul className='navigate'>
-          <li className='navigate-icons'><img src={home} alt="" /></li>
-          <li className='navigate-icons' ><img src={love} alt="" /></li>
-          <li className='navigate-icons' ><img src={user} alt="" /></li>
-          <li className='navigate-icons' ><img src={history} alt="" /></li>
-        </ul>
+<div>
+<Footer/>
       </div>
+
     </div>
+
+    
+      
+
+    
   );
 }
 
 export default ThirdScreen;
-

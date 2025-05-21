@@ -33,7 +33,7 @@ const FoodArray = [
   {
     id: 7,
     name: "Okro Soup",
-    image: "https://allnigerianfoods.com/wp-content/uploads/okro-2.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQha1bLlMR5cz-zprG96wJHtN8-F94BOdCHYg&s",
     price: 1700,
   },
   {
@@ -88,13 +88,13 @@ const FoodArray = [
   {
     id: 23,
     name: "Banga Soup",
-    image: "https://i.pinimg.com/736x/89/a5/8d/89a58d4d578fba695fdd523c50baa563.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfEPecsXwmjR_qPPx6PloNNeVdPqH52zFuYg&s",
     price: 2000,
   },
   {
     id: 24,
     name: "Oha Soup",
-    image: "https://i.pinimg.com/736x/c4/8d/1e/c48d1e2fd1f8b86df225de1f2ad491d6.jpg",
+    image: "https://www.africanfoodies.com/wp-content/uploads/2023/04/IMG_1548-2.jpg",
     price: 1900,
   },
  

@@ -1,0 +1,42 @@
+.add-to-cart-display{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-self: center;
+    padding-bottom: 2em;
+    text-align: center;
+
+}
+.add-to-cart-display img{
+    border-radius: 30em;
+    width: 14em;
+   height: 14em;
+ box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15);
+
+}
+.add-to-cart-display h5{
+     font-family: "M PLUS Rounded 1c", sans-serif;
+     font-weight: 600;
+     color: #252525;
+     font-size: 1.5em;
+}
+.add-to-cart-display span{
+     font-family: "M PLUS Rounded 1c", sans-serif;
+     font-weight: 700;
+     color:#FA4A0C;
+     font-size: 1.1em;
+}
+.swiper-pagination-bullet {
+  width: 10px !important;
+  height: 10px !important;
+  margin: 0 5px !important;
+  background-color: #999 !important;
+  opacity: 0.7 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #FA4A0C !important;
+  opacity: 1 !important;
+}
+
+

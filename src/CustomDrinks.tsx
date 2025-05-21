@@ -2,10 +2,7 @@ import menu from './assets/menus.png';
 import cart from './assets/grocery-cart.png';
 import './ThirdScreen.css';
 import Input from './GeneralSearch';
-import home from './assets/heroicons-solid_home.png'
-import love from './assets/heart.png'
-import user from './assets/user.png'
-import history from './assets/Vector.png'
+import Footer from './Footer';
 import DrinksCarousel from './DrinksCarousel';
 import { Link, useLocation } from 'react-router-dom';
 
@@ -22,7 +19,8 @@ function CustomDrinks() {
   const active = getActiveTab();
 
   return (
-    <div className='third-screen'>
+    <div>
+<div className='third-screen'>
       <div className="icons">
         <img className='icon-images' src={menu} alt="" />
         <img className='icon-images' src={cart} alt="" />
@@ -67,15 +65,13 @@ function CustomDrinks() {
       <div className='caro'>
         <DrinksCarousel/>
       </div>
-      <div className='icons-navigation' >
-        <ul className='navigate'>
-          <li className='navigate-icons'><img src={home} alt="" /></li>
-          <li className='navigate-icons' ><img src={love} alt="" /></li>
-          <li className='navigate-icons' ><img src={user} alt="" /></li>
-          <li className='navigate-icons' ><img src={history} alt="" /></li>
-        </ul>
+       <div>
+<Footer/>
       </div>
     </div>
+   
+    </div>
+    
   );
 }
 

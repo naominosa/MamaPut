@@ -23,7 +23,7 @@ function WelcomeScreen() {
       <div className="bg-overlay" >
       </div>
       <div className="button">
-        <Link to='/ThirdScreen'>
+        <Link to='/login'>
 <Button className='btn' buttonText="Get started"/>
         
         </Link>

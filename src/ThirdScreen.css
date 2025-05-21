@@ -30,6 +30,8 @@ input::placeholder {
 }
 ul li{
     list-style: none;
+  color: #252525;
+
 }
 .listed {
   display: flex;
@@ -49,10 +51,11 @@ ul li{
   text-align: center;
 }
 
-.navigate{
+.set{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
    
 }
 

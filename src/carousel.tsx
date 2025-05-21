@@ -12,6 +12,8 @@ function Carousel() {
       <Swiper
         // modules={[Navigation]}
         // navigation={true}
+          style={{ height: '220px' }}
+
          modules={[Autoplay]}
   autoplay={{ delay: 3000, disableOnInteraction: false }}
         spaceBetween={50}

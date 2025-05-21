@@ -1,5 +1,7 @@
 import React from 'react'
     import './CustomCarousel.css'
+    import { Link } from 'react-router-dom';
+    // import axios from 'axios';
 interface CarouselProps {
      children?: React.ReactNode; 
 
@@ -13,13 +15,15 @@ function CustomCarousel({src,NameOfFood,Price }:CarouselProps ) {
 
   return (
     <div className='contain'>
-      <div className="contained">
-        <img className='food' src={src} alt="food-image" />
+      <div  className="contained">
+        <Link to='/AddToCart'>
+         <img className='food' src={src} alt="food-image" />
         <h5>{NameOfFood}</h5>
         {Price !== undefined && (
           <span>₦{Price.toLocaleString()}</span>
         )}
-        {/* <p>{Price}</p> */}
+        </Link>
+       
       </div>
     </div>
   )
